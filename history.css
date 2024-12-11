@@ -1,0 +1,106 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fdbb2d;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #fdbb2d;
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#timeline h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.milestone {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.milestone h3 {
+    color: #fdbb2d;
+    margin-bottom: 10px;
+}
+
+.milestone p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer .socials a:hover {
+    color: #fdbb2d;
+}
+/* Header Image Styling */
+.header-image {
+    width: 100%;       /* Makes the image responsive */
+    max-width: 1200;  /* Limits the image size */
+    margin: 20px auto; /* Adds spacing around the image */
+    display: block;    /* Centers the image */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow effect */
+}
